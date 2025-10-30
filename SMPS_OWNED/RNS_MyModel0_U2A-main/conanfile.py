@@ -22,28 +22,28 @@ class MyModelConan(ConanFile):
     #options = {"shared": [True, False], "fPIC": [True, False]}
     #default_options = {"shared": True, "fPIC": True}
     
-    # def layout(self):
-    #     self.folders.build = "../b/IP/RNS/U2A/MyModel0"
-    #     self.folders.generators = "../b"
-    #     self.folders.package = "package"
-    #     self.folders.bin = "../IP/RNS/U2A/MyModel0"
-    #     self.folders.source = "."
+    def layout(self):
+        self.folders.build = "../b/IP/RNS/U2A/MyModel0"
+        self.folders.generators = "../b"
+        self.folders.package = "package"
+        self.folders.bin = "../IP/RNS/U2A/MyModel0"
+        self.folders.source = "."
 
-    # def config_options(self):
-    #     """Configure options based on settings"""
-    #     pass
+    def config_options(self):
+        """Configure options based on settings"""
+        pass
 
-    # def configure(self):
-    #     """Configure package based on options and settings"""
-    #     pass
+    def configure(self):
+        """Configure package based on options and settings"""
+        pass
 
-    # def requirements(self):
-    #     """Define package dependencies"""
-    #     pass
+    def requirements(self):
+        """Define package dependencies"""
+        pass
 
-    # def build_requirements(self):
-    #     """Define build dependencies"""
-    #     pass
+    def build_requirements(self):
+        """Define build dependencies"""
+        pass
 
 
     def source(self):
